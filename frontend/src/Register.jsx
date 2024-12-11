@@ -25,6 +25,11 @@ const Register = () => {
         } catch (error) {
             console.error('some error occured',error);
         }
+
+        setRegisterData({
+            username:'',
+            password:''
+        })
     }
   return (
     <div>
